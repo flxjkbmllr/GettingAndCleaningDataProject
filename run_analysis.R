@@ -80,4 +80,4 @@ testTrainMeanSDmean <- dcast(testTrainMeanSDmelt, subject + activity ~ variable,
 
 ### OUTPUT THE DATA
 write.table(testTrainMeanSD, "testTrainMeanSD.txt", row.names = FALSE, quote = FALSE)
-write.table(testTrainMeanSDmean, "testTrainMeanSDmean.txt.txt", row.names = FALSE, quote = FALSE)
+write.table(testTrainMeanSDmean, "testTrainMeanSDmean.txt", row.names = FALSE, quote = FALSE)
